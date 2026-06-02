@@ -233,7 +233,7 @@
                                     const point = context.raw;
                                     return [
                                         point.name,
-                                        "Universidad acreditada por " + point.x + " vacantes",
+                                        "Cantidad de vacantes anuales: " + point.x,
                                         "Arancel $ " + point.y.toLocaleString("es-CL"),
                                     ];
                                 },
